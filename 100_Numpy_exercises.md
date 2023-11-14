@@ -13,13 +13,13 @@ free to open an issue at <https://github.com/rougier/numpy-100>.
 File automatically generated. See the documentation to update questions/answers/hints programmatically.
 
 #### 1. Import the numpy package under the name `np` (★☆☆)
-
+import numpy as np
 #### 2. Print the numpy version and the configuration (★☆☆)
 
 #### 3. Create a null vector of size 10 (★☆☆)
 
 #### 4. How to find the memory size of any array (★☆☆)
-
+x.arr.nbytes
 #### 5. How to get the documentation of the numpy add function from the command line? (★☆☆)
 
 #### 6. Create a null vector of size 10 but the fifth value which is 1 (★☆☆)
@@ -29,13 +29,15 @@ File automatically generated. See the documentation to update questions/answers/
 #### 8. Reverse a vector (first element becomes last) (★☆☆)
 
 #### 9. Create a 3x3 matrix with values ranging from 0 to 8 (★☆☆)
-
+x = np.arange(9).reshape(3,3)
 #### 10. Find indices of non-zero elements from [1,2,0,0,4,0] (★☆☆)
 
 #### 11. Create a 3x3 identity matrix (★☆☆)
-
+x = np.eye(3)
 #### 12. Create a 3x3x3 array with random values (★☆☆)
+import random 
 
+x = np.random.rand(1,100,27)
 #### 13. Create a 10x10 array with random values and find the minimum and maximum values (★☆☆)
 
 #### 14. Create a random vector of size 30 and find the mean value (★☆☆)
