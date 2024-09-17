@@ -29,17 +29,20 @@ import numpy as np
 #### 8. Reverse a vector (first element becomes last) (★☆☆)
 
 #### 9. Create a 3x3 matrix with values ranging from 0 to 8 (★☆☆)
-
+np.arange(0,9).reshape(3,3)
 #### 10. Find indices of non-zero elements from [1,2,0,0,4,0] (★☆☆)
 
 #### 11. Create a 3x3 identity matrix (★☆☆)
-
+np.eye(3,3)
 #### 12. Create a 3x3x3 array with random values (★☆☆)
-
+np.random.randint(0,101,27).reshape(3,3,3)
 #### 13. Create a 10x10 array with random values and find the minimum and maximum values (★☆☆)
-
+x = np.random.rand(100).reshape(10,10)
+x.max()
+x.min()
 #### 14. Create a random vector of size 30 and find the mean value (★☆☆)
-
+y = np.random.rand(30)
+y.mean()
 #### 15. Create a 2d array with 1 on the border and 0 inside (★☆☆)
 
 #### 16. How to add a border (filled with 0's) around an existing array? (★☆☆)
